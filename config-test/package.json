@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "js-yaml": "^4.1.0"
   }
 }
