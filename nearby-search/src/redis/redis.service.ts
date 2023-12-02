@@ -14,6 +14,9 @@ export class RedisService {
     });
   }
 
+  /**
+   * 获取单个位置信息
+   */
   async geoPos(key: string, posName: string) {
     const res = await this.redisClient.geoPos(key, posName);
 
@@ -24,6 +27,9 @@ export class RedisService {
     };
   }
 
+  /**
+   * 获取多个位置信息，返回List
+   */
   async geoList(key: string) {
     const positions = await this.redisClient.zRange(key, 0, -1);
 
