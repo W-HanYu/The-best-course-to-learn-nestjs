@@ -41,7 +41,7 @@ function handleResults(results) {
 
 const imap = new Imap({
   user: "nannan@qq.com",
-  password: "lderrkjyvkegjijb",
+  password: "你的授权码,",
   host: "imap.qq.com",
   port: 993,
   tls: true,

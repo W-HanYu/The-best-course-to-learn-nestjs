@@ -7,7 +7,7 @@ const transporter = nodemailer.createTransport({
   secure: false,
   auth: {
     user: "nannan@qq.com",
-    pass: "lderrkjyvkegjijb", //你的授权码,
+    pass: "你的授权码,", //你的授权码,
   },
 });
 
