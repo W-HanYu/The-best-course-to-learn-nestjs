@@ -36,3 +36,5 @@
 - [sse-project](./sse-project/)
 - [short-url](./short-url/src/app.controller.ts)
 - [sharp-implement-git-compression](./sharp-implement-git-compression/gif-compression-backend/src/app.controller.ts)
+- [qrcode-login:二维码登录](./qrcode-login/src/app.controller.ts)
+- [repl-test:NEST REPL MODEL](./repl-test/src/app.controller.ts)
