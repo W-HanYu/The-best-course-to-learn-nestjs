@@ -6,15 +6,15 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: "nannan@qq.com",
-    pass: "你的授权码,", //你的授权码,
+    user: "1453300745@qq.com",
+    pass: "dbyxfolfoterjiii,", //你的授权码,
   },
 });
 
 async function main() {
   const info = await transporter.sendMail({
-    from: '"楠哥" <nannan@qq.com>',
-    to: "taotao@qq.com", //"nannan@163.com",
+    from: '"楠哥" <1453300745@qq.com>',
+    to: "860482354@qq.com", //"nannan@163.com",
     subject: "Hello 111",
     html: fs.readFileSync("./index.html"),
   });
